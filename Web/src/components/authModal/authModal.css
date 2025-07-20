@@ -1,0 +1,66 @@
+.auth-modal {
+    display: flex;                  
+    flex-direction: column;
+    gap: 16px;
+    width: 500px;
+    height: auto;
+    padding-bottom: 16px; 
+    background-color: var(--primary-bg-modal);
+    cursor: default;
+}
+
+
+.auth-modal-img-container{
+    min-height: 140px;
+}
+
+
+.auth-modal-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 20px;
+    height: 60px;
+    background-color:#F2F2F2; 
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.auth-modal-button-text{
+    line-height: 36px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.auth-modal-buttons-container button:first-of-type .auth-modal-button-text {
+    color: var(--text-gray);
+}
+
+.auth-modal-button-text:last-child{
+    color: var(--text-light);
+}
+
+#show-games{
+    width: 100%;
+    scale: 1.07;
+    z-index: 0;
+}
+
+.auth-modal-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-modal-text-content-wrapper{
+    width: 80%;
+}
+
+.auth-modal-text{
+    color: var(--text-gray);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}

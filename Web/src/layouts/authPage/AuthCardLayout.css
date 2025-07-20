@@ -1,0 +1,14 @@
+.auth-card-layout {
+    display: grid;
+    place-items: center; 
+    position: fixed;
+    top: 10.5%;  
+    left: 50%;  
+    transform: translateX(-50%);  
+    width: 100%;
+    min-height: 100vh;
+}
+
+.auth-card-wrapper {
+    margin-bottom: 200px;
+}

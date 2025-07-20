@@ -1,0 +1,26 @@
+.game-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.game-list-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+.game-list-title {
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  align-self: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.game-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,43 @@
+.cartGameCard {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDEDED;
+    margin: 5px;
+}
+
+
+.cartGameCard .nameSection  {
+    width: 180px;
+    max-height: 110px;
+    margin: auto;
+    color: black;
+    text-transform: uppercase;
+}
+
+.cartGameCard .nameSection span{ 
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.cartGameCard .priceSection{
+    margin: auto;
+    color: var(--violet-base);
+    font-weight: bold;
+    font-size: x-large;
+    max-width: 100px;
+}
+
+.cartGameCardImage{
+max-width: 324px;
+height: 110px;
+}
+
+.cartGameCard img {
+  width: 100%;
+  max-width: 324px;
+  max-height: 110px;
+  flex-shrink: 0;
+    
+    
+}

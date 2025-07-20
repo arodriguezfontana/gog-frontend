@@ -1,0 +1,29 @@
+{
+  "name": "@unq-ui/gog-implementation-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "start": "node ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@unq-ui/gog-implementation-js": "file:",
+    "@unq-ui/gog-model-js": "^1.1.13",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}

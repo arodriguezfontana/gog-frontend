@@ -1,0 +1,26 @@
+#home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    box-shadow: var(--inset-background);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    padding-top: 58px; 
+}
+  
+.home-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.home-wrapper .home-section{
+    min-height: 400px;
+    height: auto;
+}

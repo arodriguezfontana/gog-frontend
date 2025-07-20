@@ -1,0 +1,39 @@
+.game-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .main-image img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .image-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    width: calc((100% - 50px) / 6);
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+  }
+  
+  .image:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  

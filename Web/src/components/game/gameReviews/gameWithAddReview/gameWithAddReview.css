@@ -1,0 +1,84 @@
+.user-add-review {
+  background-color: var(--grey-medium-light);
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.game-reviews-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.recommended {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 57px;
+}
+
+.recommended span {
+  font-size: 17px;
+}
+
+.label {
+  color: white;
+  font-size: 14px;
+}
+
+.thumb {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.thumb:hover {
+  transform: scale(1.1);
+}
+
+.selected {
+  filter: brightness(110%);
+}
+
+.review-text-area {
+  width: 87%;
+  height: 120px;
+  padding: 10px;
+  resize: none;
+  font-family: inherit;
+  font-size: 17px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  margin-left: 46px;
+}
+
+.review-text-area::placeholder {
+  color: rgba(255, 255, 255, 0.9); 
+}
+
+.button-container {
+  display: block;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-add-review-container {
+  max-width: 100px;
+  margin: 0 auto; 
+}
+
+.error-message {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background-color: rgba(196, 27, 27, 0.697);
+}

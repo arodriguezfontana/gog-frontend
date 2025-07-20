@@ -1,0 +1,100 @@
+.info-card-skeleton{
+    background: var(--Light-Grey, #EDEDED);
+    width:  327px;
+    height: 467px;
+    max-height: 467px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -3px -24px 176px -65px rgba(39, 39, 39, 0.39);
+    -webkit-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: -3px -24px 176px -65px rgba(0,0,0,0.39);
+    gap: 8px;
+    border-radius: 6px;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(150%);
+    }
+}
+
+.info-image-skeleton, .info-card-title-skeleton, .info-price-skeleton, .info-tags-skeleton{
+    background: var(--gray-light);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.info-image-skeleton::after, .info-card-title-skeleton::after, .info-price-skeleton::after, .info-tags-skeleton::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:  60%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.849), transparent);
+    animation: shimmer 1.5s infinite;
+}
+
+.info-price-skeleton::after{
+    background: linear-gradient(90deg, transparent, #a03ba573, transparent);
+}
+
+
+.info-image-skeleton{
+    width : 100%;
+    height: 327px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.info-card-skeleton-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+}
+
+.info-card-content-skeleton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-self: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.info-card-title-skeleton{
+    width: 100%;
+    height: 50px;
+}
+
+.info-game-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.info-tags-skeleton{
+    align-self: flex-start;
+    width: 100%;
+    display: flex;
+    height: 60%;
+}
+
+.info-price-skeleton{
+    align-self: flex-end;
+    width: 30%;
+    height: 10%;
+    background-color: #a03ba573;
+}

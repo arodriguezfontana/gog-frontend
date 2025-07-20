@@ -1,0 +1,21 @@
+.list-container, .list-wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.list-wrapper{
+    flex-direction: column;
+}
+.list-wrapper{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.list-body-container{
+    margin-top: -16px;
+    padding: 16px;
+}
+

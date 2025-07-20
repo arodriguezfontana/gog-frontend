@@ -1,0 +1,20 @@
+.buttonCartLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 172px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+    color: var(--text-dark);
+    background:var(--green-base);
+}
+.buttonCartLayout:hover{
+    background: var(--green-light);
+    cursor: pointer;
+    /* box-shadow: var(--inset-shadow-green); */
+}

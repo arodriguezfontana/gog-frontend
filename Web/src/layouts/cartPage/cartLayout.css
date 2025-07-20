@@ -1,0 +1,28 @@
+.cartPageMain{
+    width: 1280px;
+    height: auto;
+    display: flex;
+    margin: 30px auto;
+    gap: 40px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.cartPageMain .mainSection{
+    background-color: var(--text-dark);
+    width: 800px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.cartPageMain .asideSection {
+    display: flex;
+    /* background: red; */
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+
+}

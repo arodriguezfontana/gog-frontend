@@ -1,0 +1,219 @@
+.auth-card{
+    height: auto;
+    /* height: 626px; */
+    width: 390px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
+    position: relative;  
+}
+
+#register-card{
+    height: 592px;
+}
+
+#login-card{
+    height: 337px;
+}
+
+.auth-card-container{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.auth-button {
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--green-base);
+    box-shadow: var(--inset-shadow-green);
+    margin-top: auto; 
+}
+
+
+.auth-button:hover{
+    background-color: var(--green-bright);
+    box-shadow: var(--inset-shadow-green);
+}
+
+
+.auth-inputs{
+    background-color: #EDEDED;
+    border: .5px solid #8f8f8f;
+    padding: 8px;
+    height: 40px;
+    width: 330px;
+    color: var(--text-dark);
+    box-shadow: 0px 0px px rgba(0, 0, 0, 0.1);    
+}
+
+.logo-title-container h2{
+    font-size: 30px;
+    color: var(--text-dark);
+    font-weight: lighter;
+}
+.logo-title-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.logo-in-auth{
+    width: 46px;
+}
+.auth-last-message{
+    background-color: #cacaca;
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-last-message button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.another-auth{
+    color: var(--text-dark);
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.auth-terms{
+    font-size: .8rem;
+    text-align: center;
+}
+
+.auth-requirements{
+    display: flex;
+    gap: 8px;
+    align-self: flex-start;
+    font-weight: 100;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.auth-requirements span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #bbbbbb;
+    padding: 4px;
+    width:  16px;
+    height: 16px;
+    font-size: .5rem;
+}
+
+.auth-terms ,.auth-terms > *, a{
+    color:var(--text-dark);
+}
+
+
+.auth-last-message p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.auth-requirements-container{
+    position: relative;
+}
+
+.auth-requirements-container:hover > .modal-requirements, .modal-requirements:hover{
+    display: flex;
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    z-index: 10;
+}
+
+.close-button img{
+    width:  9px;
+    height: 9px;
+    fill: #cacaca !important;
+}
+.close-button{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+/* ModalRequirements */
+.modal-requirements{
+    display: none;
+    background-color: var(--secondary-bg-color);
+    padding: 24px 8px;
+    border-radius: 4px;
+    border: .5px solid var(--violet-base);
+    width: 100%;
+}
+
+
+.modal-requirements ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-requirements ul li{
+    font-size: 11px;
+    font-weight: lighter;
+    color: var(--text-dark);
+    list-style: none;
+}
+
+
+/* error message*/
+.auth-error {
+    
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 10px 14px;
+    border-radius: 8px;
+    animation-name: pipBorder;
+    animation-direction: alternate;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: background-color 0.3s, color 0.3s;
+
+    color: rgb(214, 39, 39);
+}
+
+/* @keyframes pipBorder {
+    0% {
+        box-shadow: 0 0 0px rgba(255, 0, 0, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+        background-color: rgba(255, 0, 0, 0.1);
+        color: rgb(214, 39, 39);
+    }
+} */

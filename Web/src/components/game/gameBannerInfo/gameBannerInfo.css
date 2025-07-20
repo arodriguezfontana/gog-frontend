@@ -1,0 +1,87 @@
+.info p {
+  margin-bottom: 7px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(57, 57, 57, 0.537);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.overlay-card {
+  position: relative;
+  width: 40%;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: gray;
+}
+
+.all-tags {
+  margin-top: 15px;
+  display: flex;
+  justify-content: initial;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.all-tags .tag {
+  color: var(--text-light);
+  border-color: var(--text-light);
+  font-weight: 500;
+}
+
+.game-banner-info-tags-container .tag {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-top: 2px;
+  padding: 0 2px;
+  border: none;
+  text-decoration: underline;
+}
+
+.game-banner-info-tags-container .tag:hover {
+  transform: translateY(-1.5px);
+}
+
+.game-banner-info-tags-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.tag-button {
+    all: unset;
+    cursor: pointer;
+}
+
+.overlay-tag-button {
+    all: unset;
+    cursor: pointer;
+    color: white;
+}
+
+.close-button {
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.more-button {
+  all: unset;
+  cursor: pointer;
+}
+

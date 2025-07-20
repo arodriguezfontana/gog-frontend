@@ -1,0 +1,38 @@
+.containerCreditData { 
+    display: flex;
+    justify-content: center;
+}
+
+.formCreditData {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+
+}
+
+.cardData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    width: 100%; 
+    
+}
+
+.cardData input {
+    width: 100%;
+    font-size: 15px;
+    padding: 2px;
+    height: 25px;
+    background: var(--gray-light);
+    color: var(--text-dark);
+}
+
+.cardData button {
+ margin: auto;
+}
+.errors{
+    color: red;
+}

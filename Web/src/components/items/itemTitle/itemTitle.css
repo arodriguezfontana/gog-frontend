@@ -1,0 +1,41 @@
+
+.navbar-item-container{
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 100px;
+}
+
+.navbar-word-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-bg-color);
+    transform: rotate(180deg);
+    padding-top: 6px;
+}
+
+/* COLORS */
+
+/* DEFAULT (gray) */
+.navbar-word{
+    color: var(--secondary-bg-color);
+}
+
+.navbar-word:hover{
+    color: var(--bg-color);
+}
+
+/* VIOLET */
+.navbar-word.violet-color{
+    color: var(--text-accentt);
+}
+
+.navbar-word.violet-color:hover{
+    color: var(--text-accent-light);
+}
+

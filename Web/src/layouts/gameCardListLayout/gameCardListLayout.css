@@ -1,0 +1,81 @@
+.game-card-list-layout{
+  max-width: 100%;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-card-list-layout-container{
+  height: 163px;
+  display: flex;
+  align-items: center;
+  background-color: #ededed;
+  gap: 1rem;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1120px;
+ 
+}
+.game-card-list-layout-info-container{
+  height: 100%;
+  width: 100%;
+  padding-top: 16px;
+}
+
+.game-card-list-layout-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.game-card-list-layout-title.default{
+  cursor: default;
+}
+
+.game-card-list-layout-title.default.none, .game-card-list-layout-title.none{
+  display: none;
+}
+
+.game-card-list-layout-info{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.5rem;
+  position: relative;
+  padding: 0 10px;
+}
+
+
+.game-card-list-layout-container:hover {
+  transform: scale(1.01);
+}
+
+.game-card-list-layout-container img {
+  cursor: pointer;
+  width: 100%;
+  max-width: 324px;
+  max-height: 163px;
+  flex-shrink: 0;
+}
+
+.game-card-list-layout-container.default img{
+  cursor: default;
+}
+
+.game-card-list-layout-price{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--violet-deep);
+  margin-right: 15px;
+}

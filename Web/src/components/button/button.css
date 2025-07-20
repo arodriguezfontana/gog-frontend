@@ -1,0 +1,84 @@
+.button{
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+/* Button Color */
+.green {
+    background-color: var(--green-base);
+    box-shadow: var(--inset-shadow-green);
+}
+.green:hover {
+    background-color: var(--green-bright);
+    box-shadow: var(--inset-shadow-green);
+}
+
+.gray {
+    background-color: var(--gray-light);
+    border: 0.5px solid rgba(177, 177, 177, 0.49); 
+}
+
+.gray:hover {
+    background-color:var(--gray-lightest);
+    box-shadow:
+    inset 0 -15px 10px var(--gray-lightest); 
+}
+
+.violet {
+    background-color: var(--violet-dark);
+    box-shadow:
+    inset 0 -15px 10px var(--violet-darker); 
+}
+
+.violet:hover {
+    background-color:var(--violet-darker);
+    box-shadow: initial;
+}
+
+
+/* slider/carousel buttons */
+
+.carousel-button > img{
+    width:  50%;
+    object-fit: cover;
+}
+  
+.carousel-button.next > img{
+    transform: rotate(180deg);
+    
+}
+
+.carousel-button {
+  position: absolute;
+  top: 43%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 3;
+  width:  30%;
+  height: 50%;
+  max-width: 96px;
+  max-height: 240px;
+  background: rgba(209, 131, 215, 0.8);
+  border: none;
+}
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
+}
+
+.carousel-button > img{
+    width: 25%;
+}

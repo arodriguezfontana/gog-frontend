@@ -1,0 +1,7 @@
+.tags-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  overflow: hidden;
+  max-width: 100%;
+}

@@ -1,0 +1,56 @@
+.big-game-card-container{
+    transition: transform 600ms ease-in-out;
+    position:relative ;
+}
+
+.big-game-card-main-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    aspect-ratio: 16 / 9;
+    transition: all 500ms ease-in-out;
+}
+
+.big-game-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    margin: auto;
+    opacity: 1;
+    background:transparent;
+    transform: scale(1.2);
+    animation: algo linear both;
+    transform: scaleY(115%);
+    transition: all 300ms ease-in-out;
+    background: transparent;
+    background: linear-gradient(180deg,rgba(219, 219, 219, 0)42%, rgba(0, 0, 0, 0.93) 83%);
+}
+.big-game-card:hover{
+    background: transparent;
+    transform: scale(1.1);
+}
+.big-game-card-container:hover > .big-game-card-main-image{
+    transform: scale(1.1);
+}
+
+.big-game-card:hover > .big-game-card-title{
+    opacity: 0;
+}
+
+.big-game-card-title{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    font-size: 16rem;
+    font-size: 2rem;
+    position: absolute;
+    bottom: -430px;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+}
+
+
+
+
+

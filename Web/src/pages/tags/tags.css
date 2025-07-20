@@ -1,0 +1,17 @@
+.tags-page{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 24px;
+}
+
+.tags-page-container{
+    width: 100%;
+    max-width: 1248px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}

@@ -1,0 +1,55 @@
+.persona-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    
+}
+
+.persona-info.white > img,  .nickname{
+    border: 1px solid white;
+    color: white;
+}
+
+.persona-info img,
+.persona-info .nickname {
+    width: 100%;
+    font-size: 1rem;
+    transition: transform 300ms ease-in-out; 
+    cursor: pointer;
+    border: none;
+}
+
+.persona-info.black .nickname{
+    color: black;
+}
+
+.persona-info img{
+    object-fit: fill;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    min-height: 45px;
+}
+
+.persona-info .nickname{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.persona-info img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 45px;
+    max-width: 45px;
+    object-fit: cover;
+    border: 2px solid black;
+    
+}
+
+.persona-info .nickname:hover {
+   transform: scale(1.07); 
+    color: var(--violet-deep);
+}

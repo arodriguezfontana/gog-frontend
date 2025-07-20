@@ -1,0 +1,12 @@
+.game-wrapper {
+    margin: 50px 200px;
+}
+
+.page-section-content{
+    width: 100%;
+    text-align: left;
+}
+
+html {
+    scroll-behavior: initial;
+}

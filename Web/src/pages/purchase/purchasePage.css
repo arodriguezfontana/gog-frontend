@@ -1,0 +1,12 @@
+.purchaseContainer { 
+    /* background-color: black; */
+    
+    font-family: "Inter", "Lato";
+    width: 90%;
+    height: 90%;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}

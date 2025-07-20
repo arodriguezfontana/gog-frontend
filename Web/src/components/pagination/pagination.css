@@ -1,0 +1,90 @@
+.pagination-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.games-cards-container {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.games-cards-container.grid{
+    min-width: 1200px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    place-items: center;
+}
+
+.games-cards-container.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+
+.games-cards-container.grid .card-component-container{
+    margin-bottom: 48px;
+}
+
+.card {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 20%;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        translate: 0 100px;
+        scale: 0.8;
+    }
+    100% {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
+
+
+
+.load-more-text{
+    width: 10%;
+}
+
+.load-more-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 12px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    width: 100%;
+}
+
+.pagination-no-more-content-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.pagination-no-more-content-msg{
+    font-weight: var(--font-weight-strong);
+    font-size: 2rem;
+    line-height: var(--line-height-large);
+    letter-spacing: var(--letter-spacing-normal);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+}

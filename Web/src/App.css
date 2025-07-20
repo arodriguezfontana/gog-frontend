@@ -1,0 +1,44 @@
+#body-app {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: var(--navbar-height) 1fr ;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  background-color: var(--bg-color);
+  box-shadow:var(--inset-background);
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  box-shadow: var(--inset-background);
+  display: flex;
+  flex-direction: column;
+  /* place-items: center;
+  justify-content: center; */
+}
+
+footer {
+  grid-area: footer;
+}
+
+.violet-line{
+  width: 100%;
+  height: 4px;
+  position: fixed;
+  top: 0;
+}
+
+.violet-line:last-child{
+  position: fixed;
+  top: initial;
+  bottom: 0;
+}

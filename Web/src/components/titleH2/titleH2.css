@@ -1,0 +1,11 @@
+
+.title-h2 {
+    font: Inter;
+    font-weight: var(--font-weight-strong);
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-large);
+    letter-spacing: var(--letter-spacing-normal);
+    color: var(--text-dark);
+    padding-bottom: 18px;
+    width: 100%;
+}

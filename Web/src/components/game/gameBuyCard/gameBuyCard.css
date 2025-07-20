@@ -1,0 +1,26 @@
+.buy-card {
+    background-color: var(--grey-medium-light);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.buy-card p {
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.buy-card .izq-content {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.button-add-to-cart-container{
+    width: 100px;
+    margin-left: 20px;
+}

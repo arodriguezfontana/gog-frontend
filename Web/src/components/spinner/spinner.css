@@ -1,0 +1,10 @@
+.spinner-container{
+    z-index: 2;
+}
+.spinner-wrapper{
+    width: 200px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+}
