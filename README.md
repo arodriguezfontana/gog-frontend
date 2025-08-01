@@ -45,3 +45,7 @@ npm install
 npx expo start
 ```
 Abrir en el navegador o en Expo en dispositivos móviles.
+
+### Más información
+
+Este proyecto fue desarrollado en grupo junto a tres compañeros para la materia Construcción de Interfaces de Usuario. Decidí crear este repositorio ya que no me fue posible hacer un fork del original.
