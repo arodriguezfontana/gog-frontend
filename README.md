@@ -22,6 +22,7 @@ El proyecto fue desarrollado en tres capas:
 * TypeScript
 * JavaScript
 * ExpressJS
+* NodeJS
 * CSS
 * HTML
 
