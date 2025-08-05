@@ -19,6 +19,7 @@ El proyecto fue desarrollado en tres capas:
 ### Tecnologías utilizadas
 * React
 * React Native
+* Redux
 * TypeScript
 * JavaScript
 * ExpressJS
