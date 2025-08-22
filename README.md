@@ -15,6 +15,7 @@ El proyecto fue desarrollado en tres capas:
 * Sistema de amistades entre usuarios y perfiles
 * Busquedas
 * Interfaz moderna, intuitiva y responsive
+* Validacion de datos en el pago
 
 ### Tecnologías utilizadas
 * React
