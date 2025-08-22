@@ -31,19 +31,19 @@ El proyecto fue desarrollado en tres capas:
 ### Imagenes del proyecto
 
 <p>
-  <img src="./images/1.png" alt="Imagen del proyecto" width="200"/>
-  <img src="./images/2.png" alt="Imagen del proyecto" width="200"/>
-  <img src="./images/3.png" alt="Imagen del proyecto" width="200"/>
+  <img src="./images/1.png" alt="Imagen del proyecto" width="250"/>
+  <img src="./images/2.png" alt="Imagen del proyecto" width="250"/>
+  <img src="./images/3.png" alt="Imagen del proyecto" width="250"/>
 </p>
 <p>
-  <img src="./images/4.png" alt="Imagen del proyecto" width="200"/>
-  <img src="./images/5.png" alt="Imagen del proyecto" width="200"/>
-  <img src="./images/6.png" alt="Imagen del proyecto" width="200"/>
+  <img src="./images/4.png" alt="Imagen del proyecto" width="250"/>
+  <img src="./images/5.png" alt="Imagen del proyecto" width="250"/>
+  <img src="./images/6.png" alt="Imagen del proyecto" width="250"/>
 </p>
 <p>
-  <img src="./images/7.png" alt="Imagen del proyecto" width="200"/>
-  <img src="./images/8.png" alt="Imagen del proyecto" width="200"/>
-  <img src="./images/9.png" alt="Imagen del proyecto" width="200"/>
+  <img src="./images/7.png" alt="Imagen del proyecto" width="250"/>
+  <img src="./images/8.png" alt="Imagen del proyecto" width="250"/>
+  <img src="./images/9.png" alt="Imagen del proyecto" width="250"/>
 </p>
 
 ### ¿Cómo descargar y ejecutar el proyecto?
