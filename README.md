@@ -3,8 +3,8 @@
 Aplicación de e-commerce de videojuegos inspirada en la plataforma GOG, que replica sus funcionalidades principales en versiones web y móvil.
 
 El proyecto fue desarrollado en tres capas:
-* API REST en ExpressJS
-* Aplicación web en React y JavaScript
+* API REST en ExpressJS y NodeJS
+* Aplicación web en ReactJS y JavaScript
 * Aplicación móvil en React Native y TypeScript
 
 ### Funcionalidades principales
@@ -26,6 +26,24 @@ El proyecto fue desarrollado en tres capas:
 * NodeJS
 * CSS
 * HTML
+
+### Imagenes del proyecto
+
+<p>
+  <img src="./images/1.png" alt="Imagen del proyecto" width="300"/>
+  <img src="./images/2.png" alt="Imagen del proyecto" width="300"/>
+  <img src="./images/3.png" alt="Imagen del proyecto" width="300"/>
+</p>
+<p>
+  <img src="./images/4.png" alt="Imagen del proyecto" width="300"/>
+  <img src="./images/5.png" alt="Imagen del proyecto" width="300"/>
+  <img src="./images/6.png" alt="Imagen del proyecto" width="300"/>
+</p>
+<p>
+  <img src="./images/7.png" alt="Imagen del proyecto" width="300"/>
+  <img src="./images/8.png" alt="Imagen del proyecto" width="300"/>
+  <img src="./images/9.png" alt="Imagen del proyecto" width="300"/>
+</p>
 
 ### ¿Cómo descargar y ejecutar el proyecto?
 API REST:
@@ -50,4 +68,4 @@ Abrir en el navegador o en Expo en dispositivos móviles.
 
 ### Más información
 
-Este proyecto fue desarrollado en grupo junto a tres compañeros para la materia Construcción de Interfaces de Usuario. Decidí crear este repositorio ya que no me fue posible hacer un fork del original.
+Este proyecto fue desarrollado en grupo junto a 3 compañeros para la materia Construcción de Interfaces de Usuario. Decidí crear este repositorio ya que no me fue posible hacer un fork del original.
