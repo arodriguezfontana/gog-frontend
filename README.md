@@ -3,8 +3,8 @@
 Aplicación de e-commerce de videojuegos inspirada en la plataforma GOG, que replica sus funcionalidades principales en versiones web y móvil.
 
 El proyecto fue desarrollado en tres capas:
-* API REST en ExpressJS y NodeJS
-* Aplicación web en ReactJS y JavaScript
+* API REST en Express.js y Node.js
+* Aplicación web en React y JavaScript
 * Aplicación móvil en React Native y TypeScript
 
 ### Funcionalidades principales
@@ -23,8 +23,8 @@ El proyecto fue desarrollado en tres capas:
 * Redux
 * TypeScript
 * JavaScript
-* ExpressJS
-* NodeJS
+* Express.js
+* Node.js
 * CSS
 * HTML
 
