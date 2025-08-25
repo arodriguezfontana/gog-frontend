@@ -1,4 +1,4 @@
-# GOG – Tienda digital de videojuegos multiplataforma
+# GOG – E-commerce de videojuegos multiplataforma
 
 Aplicación de e-commerce de videojuegos inspirada en la plataforma GOG, que replica sus funcionalidades principales en versiones web y móvil.
 
